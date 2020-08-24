@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-23T03:19:51.918Z",
+        "line": 4,
+        "name": "\"1.1. User should be able to click on upload files icon to upload files and pictures from local disks",
+        "description": "",
+        "id": ";\"1.1.-user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7896000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248230000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in as \"hr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userLogsIn(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Activity Stream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity Stream\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks \"message\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userClicksButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks \"upload files\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"upload files\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userClicksIcon(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User upload files and images",
+            "match": {
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userUploadFilesAndImages()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks send button",
+            "match": {
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userClicksSendButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should able to see the picture on page",
+            "match": {
+              "location": "com.bitrix24.step_definitions.message_stepDefinition.userShouldAbleToSeeThePictureOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-23T03:24:08.215Z",
+        "line": 15,
+        "name": "\"1.2 User should be able to click on upload files icon to download from external drive, select documents from bixtrix24,",
+        "description": "  and create files to upload.",
+        "id": ";\"1.2-user-should-be-able-to-click-on-upload-files-icon-to-download-from-external-drive--select-documents-from-bixtrix24-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-23T03:24:08.220Z",
+        "line": 19,
+        "name": "\"1.3 User should be able to click on upload files icon to select documents from bixtrix24, and create files to upload.",
+        "description": "",
+        "id": ";\"1.3-user-should-be-able-to-click-on-upload-files-icon-to-select-documents-from-bixtrix24--and-create-files-to-upload.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "",
+    "description": "  1. As a user, I should be able to send messages by clicking on Message tab under Active Stream.",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ActivityStream.feature",
+    "tags": []
+  }
+]test/resources/features/ActivityStream.feature",
+    "tags": []
+  }
+]

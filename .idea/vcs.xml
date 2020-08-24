@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CoreCucumberFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SeleniumPracticeTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SeleniumTestNgFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring2020B18_Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring2020B18_Java/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring2020B18_Javaz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cybertek18-cucumber-junit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-2020-b18-automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-2020-b18-cucumber-framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-2020-git-practice" vcs="Git" />
+  </component>
+</project>
