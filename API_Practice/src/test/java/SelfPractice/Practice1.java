@@ -1,4 +1,4 @@
-package PracticeWithBilal;
+package SelfPractice;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -16,7 +16,12 @@ public class Practice1 {
 
     @Test
     public void test1() {
-        Response response = RestAssured.given().accept(ContentType.JSON).when().get("api/spartans");
+        Response response = RestAssured.given().
+                accept(ContentType.JSON).
+                when().
+                get("api/spartans");
+
+
         System.out.println("response.statusCode() = " + response.statusCode());
         Assert.assertEquals(response.statusCode(), 200);
         Assert.assertEquals("application/json;charset=UTF-8", response.contentType());
@@ -26,11 +31,15 @@ public class Practice1 {
     @Test
     public void test2() {
         //path parameter
-        Response response = RestAssured.given().accept(ContentType.JSON).pathParam("id", 25).
-                when().get("/api/spartans/{id}");
+        Response response = RestAssured
+                .given()
+                .accept(ContentType.JSON)
+                .pathParam("id", 25).
+                when()
+                .get("/api/spartans/{id}");
 
         System.out.println("response.statusCode() = " + response.statusCode());
-        System.out.println(response.contentType());
+        System.out.println("response.contentType() = "+response.contentType());
 
         String id = response.path("id").toString();
         String name = response.path("name").toString();
@@ -48,5 +57,7 @@ public class Practice1 {
         System.out.println("phone = " + phone);
 
     }
+
+
 
 }

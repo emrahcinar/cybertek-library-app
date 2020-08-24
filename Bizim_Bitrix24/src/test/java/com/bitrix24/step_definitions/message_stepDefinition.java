@@ -45,8 +45,8 @@ public class message_stepDefinition {
     public void userShouldAbleToSeeThePictureOnPage() {
     }
 
+    @Then("user navigates to {string}")
+    public void user_navigates_to(String string) {
 
-    @And("User upload {string}")
-    public void userUpload(String arg0) {
     }
 }

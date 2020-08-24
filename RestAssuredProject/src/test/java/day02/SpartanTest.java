@@ -36,7 +36,7 @@ public class SpartanTest {
 
     @DisplayName("Get All Spartan 2")
     @Test
-    public void testAllSpartans2(){
+    public void testAllSpartans2() {
 
         //send me the same requst specifiying the accept header is application/json
         //use baseURI basepath, check status code 200 , contentType header is json
@@ -44,7 +44,7 @@ public class SpartanTest {
         given()
                 .baseUri("http://100.25.192.231:8000")  //alternative way of doing it
                 .basePath("/api")
-               // .accept("application/json")
+                // .accept("application/json")
                 .accept(ContentType.JSON)
                 .when()
                 .get("/spartans")
@@ -56,10 +56,7 @@ public class SpartanTest {
                 .contentType(ContentType.JSON);
 
 
-
-
     }
-
 
 
 }

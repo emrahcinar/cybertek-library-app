@@ -17,13 +17,11 @@ public class PostRequestExample {
 
 
     @BeforeAll
-
-
     public static void init() {
-
         RestAssured.baseURI = "http://54.158.178.13";
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
+
     }
 
     @DisplayName("Testing POST /api/spartans")
@@ -52,7 +50,6 @@ public class PostRequestExample {
                 .body("success", is("A Spartan is Born!"))
                 .body("data.name", is("Adam"))
         ;
-
 
     }
 
