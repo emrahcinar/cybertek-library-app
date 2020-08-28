@@ -12,10 +12,10 @@ import pojo.Spartan;
 import java.util.*;
 import java.util.Map;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.is;
+import static io.restassured.RestAssured.given;
 
-public class getPractice {
+public class putPractice {
+
 
     @BeforeAll
     public static void init() {
@@ -23,24 +23,30 @@ public class getPractice {
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
     }
-
-    @DisplayName("Testing GET /api/spartans")
+    @DisplayName("Testing PUT /api/spartans")
     @Test
-    public void testGetSpartan() {
+            public void testPutSpartan() {
+        Map<String, Object> put = new LinkedHashMap<>();
 
-        given()
-                .contentType(ContentType.JSON)//json type yazacak
+        put.put("name", "LoveYou");
+        put.put("gender", "Female");
+        put.put("phone", 1987654321);
+
+        for (int i = 0; i <800 ; i++) {
+
+
+
+        given().contentType(ContentType.JSON)
+                .pathParam("id",i)
                 .log().all()
-                .pathParam("id", 237)//hangi id yi gormek istiyorsak
+                .body(put)
                 .when()
-                .get("/spartans/{id}")
+                .put("/spartans/{id}")
                 .then()
-                .log().all().statusCode(200)
-                .body("name", is("Ismael"))
-                .body("gender", is("Male"))
-                .body("phone", is(2122221112));
+                .log().all();
+                //.statusCode(204);
 
-
+        }
     }
 
 }

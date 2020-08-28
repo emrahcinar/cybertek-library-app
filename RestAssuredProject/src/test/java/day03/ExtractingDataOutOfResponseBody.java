@@ -31,7 +31,6 @@ public class ExtractingDataOutOfResponseBody {
         //    response.prettyPrint();
         System.out.println(response.statusCode());
 
-
         // if you want to get single data out for example just title , just year
         // use path method of Response object and provide the jsonPath
         String title = response.path("Title");
@@ -55,6 +54,7 @@ public class ExtractingDataOutOfResponseBody {
 
         String ratingValue = response.path("Ratings[0].Value");
         System.out.println("First Rating Value = " + ratingValue);
+
 
 
     }

@@ -69,9 +69,10 @@ public class Practice2 {
         List<Integer> numList= Arrays.asList(11,44,3,55,88,5);
         //checking the list size is 6
         assertThat(numList,hasSize(6));
-        //checking the list contains 114
+        //checking the list contains 11
         assertThat(numList,hasItem(11));
         //checking the list contains more than one items in any order :11,44,55
         assertThat(numList,containsInAnyOrder(11,44,3,55,88,5));
+
     }
 }

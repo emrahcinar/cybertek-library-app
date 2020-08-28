@@ -15,8 +15,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.is;
 
-public class getPractice {
-
+public class postPractice {
     @BeforeAll
     public static void init() {
         RestAssured.baseURI = "http://100.25.192.231";
@@ -24,21 +23,29 @@ public class getPractice {
         RestAssured.basePath = "/api";
     }
 
-    @DisplayName("Testing GET /api/spartans")
+    @DisplayName("Testing POST /api/spartans")
     @Test
-    public void testGetSpartan() {
+    public void testPostSpartan() {
 
-        given()
-                .contentType(ContentType.JSON)//json type yazacak
+        Map<String, Object> post = new LinkedHashMap<>();
+
+        post.put("name", "Tirsina");
+        post.put("gender", "Female");
+        post.put("phone", 1987654321);
+
+
+        given().contentType(ContentType.JSON)
                 .log().all()
-                .pathParam("id", 237)//hangi id yi gormek istiyorsak
+                .body(post)
                 .when()
-                .get("/spartans/{id}")
+                .post("/spartans")
                 .then()
-                .log().all().statusCode(200)
-                .body("name", is("Ismael"))
-                .body("gender", is("Male"))
-                .body("phone", is(2122221112));
+                .log().all()
+                .statusCode(201)
+                .body("data.name",is("Tirsina"))
+                .body("success",is("A Spartan is Born!"));
+
+
 
 
     }
