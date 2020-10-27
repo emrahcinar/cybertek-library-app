@@ -16,7 +16,7 @@ public class UsersTable_StepDefinitions {
         // System.out.println("expectedColumnNames.size() = " + expectedColumnNames.size());
 
 
-        BrowserUtils.waitForVisibility(usersPage.showRecordsDropdown,5);
+        BrowserUtils.waitForVisibility(usersPage.showRecordsDropdown,10);
         List<String> actualColumnNames = BrowserUtils.getElementsText(usersPage.tableHeaders);
 
         Assert.assertEquals(expectedColumnNames, actualColumnNames);

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e1b5abf-a4ce-4889-bb17-fe4f049b49c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithJsonPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithPathParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithQueryParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestsWithPathParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/files/DynamicJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/files/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/files/payLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/first/ComplexJsonParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/first/SumValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumAutomation/etsy.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumAutomation/src/test/java/com/automation/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumAutomation/src/test/java/com/cybertek/tests/CalculatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumAutomation/src/test/java/com/cybertek/tests/ChromeBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bizim_Bitrix24/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/pages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/pages/PageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/pages/UsersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/step_definitions/Login_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/step_definitions/PageNavigations_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/step_definitions/UsersTable_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/java/com/cybertek/library/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/resources/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/resources/features/LoginWithDiffrentUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/resources/features/SearchResults.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library-app/src/test/resources/features/ShowRecords.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_105_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_109_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_60_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_67_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_80_Homework_explicitwait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_88_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_90_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/Homework/_96_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/InterviewQuestions/_91_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_10_/_82_fluentWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_11_/_84_actionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_11_/_86_exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_11_/_89_frameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_12_/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_12_/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_13_/_101_TableExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_13_/_106_AutoSuggestive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_13_/_107_Importance_of_Javascript_Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_14_/_110_Handling_HTTPS_certifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_14_/_112_MaximizingWindowsAndDeletingCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_14_/_114_Strategy_to_Automate_broken_links.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_15_/LiveDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_15_/filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_15_/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_3_/How_to_run_test_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_6_/AutoSuggestive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_6_/chromeBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_6_/facebookXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_6_/salesforce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_6_/salesforceE2E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_7_/Css.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_8_/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_8_/Dropdown2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_8_/_58_updatedDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_8_/_64_e2e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_8_/_66_Assigment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/UDEMY/_9_/_69_base_adding_item_into_cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/ActionClassPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/DataProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/DropdownPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/LocatorsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/_10_20_2020/checkBoxesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/BascisNavigationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/CheckBoxesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/CssPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/FakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/LocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/XpathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/_1_BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/cybertek_test/_2_PageTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/DropDownPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByTagName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/FindElementByXpathPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/HowManyWebElementsWithClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/LocatorsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/MyFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/PageTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/RadioButtonsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/TestNGDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/_1_BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/_2_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/checkBoxesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFirstSeleniumProject/src/test/java/tests/setupDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/Homework/Spartans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/SelfPractice/ZipCodePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day07/GOT_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day07/NewsAPI_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day07/WhatIsVarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day08/LibraryAppResuingTheSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/utility/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/utility/DB_Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/utility/LibraryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/src/test/java/com/vyTrack/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/src/test/java/com/vyTrack/step_definitions/Login_stepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/src/test/java/com/vyTrack/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/src/test/java/com/vyTrack/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/Bitirek/src/test/resources/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/pages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/step_definitions/Login_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_Practice/target/test-classes/ApiTest/SpartanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Practice/target/test-classes/ApiTest/SpartanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiFirst/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiFirst/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/ApiFirst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiFirst/RahulShetty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiFirst/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/src/test/java/ApiTests/SpartanTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiFirst/src/test/java/first/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiFirst/src/test/java/PracticewithBilal/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bitrix24Automation" beforeDir="false" afterPath="$PROJECT_DIR$/../Bitrix24Automation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bitrix24_Online3" beforeDir="false" afterPath="$PROJECT_DIR$/../Bitrix24_Online3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bizim_Bitrix" beforeDir="false" afterPath="$PROJECT_DIR$/../Bizim_Bitrix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bizim_Bitrix24/src/test/java/com/bitrix24/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bizim_Bitrix24/src/test/java/com/bitrix24/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bizim_Bitrix24/src/test/resources/features/ActivityStream.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Bizim_Bitrix24/src/test/resources/features/ActivityStream.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bizim_Bitrix24/target/test-classes/com/bitrix24/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bizim_Bitrix24/target/test-classes/com/bitrix24/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bizim_Bitrix24/target/test-classes/features/ActivityStream.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Bizim_Bitrix24/target/test-classes/features/ActivityStream.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreCucumberFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreCucumberFramework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git_Test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_Project_B18" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_Project_B18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/BitrixProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/git.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/pages/UserStory4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/runners/CukesRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/step_definitions/US4_AC1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/step_definitions/US4_AC3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/step_definitions/US4_AC4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/utilities/ConfigurationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/java/com/Bitrix/utilities/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/src/test/resources/features/US4.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/cucumber-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/rerun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/pages/UserStory4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/runners/CukesRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/step_definitions/US4_AC1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/step_definitions/US4_AC3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/step_definitions/US4_AC4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/com/Bitrix/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/target/test-classes/features/US4.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day02/ZipCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day02/ZipCodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day06/HR_ORDS_POJO_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredProject/src/test/java/day06/HR_ORDS_POJO_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/target/test-classes/day02/ZipCodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredProject/target/test-classes/day02/ZipCodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPracticeTest" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPracticeTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumTestNgFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumTestNgFramework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring2020B18_Java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2020B18_Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Summer2019OnlineTestNGSeleniumProject" beforeDir="false" afterPath="$PROJECT_DIR$/../Summer2019OnlineTestNGSeleniumProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cybertek-library-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/UsersTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/UsersTable_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cybertek18-cucumber-junit" beforeDir="false" afterPath="$PROJECT_DIR$/../cybertek18-cucumber-junit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-2020-b18-automation" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-2020-b18-automation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-2020-b18-cucumber-framework" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-2020-b18-cucumber-framework" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hEjI8iDBnQmUFtqsIm64FiJBKo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e1b5abf-a4ce-4889-bb17-fe4f049b49c0" name="Default Changelist" comment="" />
+      <created>1599583076218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599583076218</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1599584464876">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1360.728@0.0.1280.680" timestamp="1599584464876" />
+  </component>
+</project>
