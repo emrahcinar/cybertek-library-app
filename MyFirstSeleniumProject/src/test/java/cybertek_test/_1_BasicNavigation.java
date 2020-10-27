@@ -3,7 +3,7 @@ package cybertek_test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BasicNavigation {
+public class _1_BasicNavigation {
 
     public static void main(String[] args) throws Exception{
         //to setup chrome driver

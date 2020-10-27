@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 ////span[@class="h1y"]
-public class LocatorsPracticeXpathPart2 {
+public class FindElementByXpathPart2 {
 
     public static void main(String[] args) throws Exception{
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class LocatorsPracticeXpath {
+public class FindElementByXpath {
 
     public static void main(String[] args) throws Exception{
 

@@ -1,4 +1,4 @@
-package UDEMY.Eight;
+package UDEMY._8_;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;

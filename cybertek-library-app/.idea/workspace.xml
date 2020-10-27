@@ -5,6 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1b5abf-a4ce-4889-bb17-fe4f049b49c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/October-cybertek-library-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/pages/LandingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/pages/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/runners/CukesRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/step_definitions/Login_StepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/utilities/ConfigurationReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/com/cybertek/library/utilities/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/target/test-classes/features/LoginWithParameters.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithJsonPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithPathParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Practice/src/test/java/ApiTest/SpartanTestWithPathParameters.java" afterDir="false" />
@@ -183,6 +200,7 @@
       <change beforePath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/java/com/cybertek/library/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/LoginWithParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../_10/25/10/25/October-cybertek-library-app/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cybertek18-cucumber-junit" beforeDir="false" afterPath="$PROJECT_DIR$/../cybertek18-cucumber-junit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-2020-b18-automation" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-2020-b18-automation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-2020-b18-cucumber-framework" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-2020-b18-cucumber-framework" afterDir="false" />

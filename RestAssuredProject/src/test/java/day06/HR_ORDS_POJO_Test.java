@@ -76,7 +76,4 @@ public class HR_ORDS_POJO_Test {
 
 
     }
-
-
-
 }

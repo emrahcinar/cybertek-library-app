@@ -5,14 +5,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class UserPage {
+import java.util.List;
 
-    public UserPage(){
+public  class UsersPage {
+
+    public UsersPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
 
-    @FindBy()
+    @FindBy(name = "tbl_users_length")
     public WebElement showRecordsdropdown;
+
+   // @FindBy(xpath = "//th")
+    @FindBy(tagName = "th")
+    public List<WebElement> tableHeaders;
+
+
+
 }

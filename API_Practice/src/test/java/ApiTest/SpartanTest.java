@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SpartanTest {
-    String spartanBaseUrl = "http://54.197.77.137:8000";
+    String spartanBaseUrl = "http://54.174.216.245:8000";
 
 
     @Test
@@ -17,8 +17,7 @@ public class SpartanTest {
         //print the status code
         System.out.println("status code = " + response.statusCode());
         //print body
-        System.out.println(response.body().prettyPeek());
-
+        System.out.println(response.body().prettyPrint());
 
 
     }
@@ -36,7 +35,7 @@ public class SpartanTest {
         Assert.assertEquals(response.statusCode(), 200);
 
         //verify body contains Adan
-        Assert.assertTrue(response.body().asString().contains("Adan"));
+        Assert.assertTrue(response.body().asString().contains("Marina"));
 
     }
 
@@ -47,19 +46,17 @@ public class SpartanTest {
      */
 
     @Test
-    public void viewSpartanTest3(){
+    public void viewSpartanTest3() {
 
-     Response response=   RestAssured.given()
+        Response response = RestAssured.given()
                 .accept(ContentType.JSON)
                 .when()
-                .get(spartanBaseUrl+"/api/spartans");
-     //verify statuscode
-        Assert.assertEquals(response.statusCode(),200);
+                .get(spartanBaseUrl + "/api/spartans");
+        //verify statuscode
+        Assert.assertEquals(response.statusCode(), 200);
 
         //verify response body json
-        Assert.assertEquals(response.contentType(),"application/json;charset=UTF-8");
-
-
+        Assert.assertEquals(response.contentType(), "application/json;charset=UTF-8");
 
 
     }

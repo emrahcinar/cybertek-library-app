@@ -1,4 +1,4 @@
-package UDEMY.Eight;
+package UDEMY._8_;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

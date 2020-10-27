@@ -1,4 +1,4 @@
-package UDEMY.Ten;
+package UDEMY._10_;
 
 import com.google.common.base.Function;
 import org.openqa.selenium.By;

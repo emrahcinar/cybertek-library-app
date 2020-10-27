@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class LocatorsPracticeClassName {
+public class HowManyWebElementsWithClassName {
     public static void main(String[] args) throws Exception {
 
         WebDriverManager.chromedriver().setup();

@@ -1,4 +1,4 @@
-package com.cybertek.utilities;
+package com.cybertek.library.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Platform;

@@ -1,60 +1,79 @@
-package ApiTests;
+package first;
 
+
+import files.ReusableMethods;
+import files.payLoad;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
+import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
 
-public class SpartanTests {
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
-    String spartanBaseURL = "http://54.174.216.245:8000";
-    @Test
-    public void viewSpartanTest1() {
-        Response response = RestAssured.get(spartanBaseURL + "/api/spartans");
-        //Print status code
-        System.out.println(response.statusCode());//200
-        //Print body
-        System.out.println(response.body().prettyPrint());
+public class Basics {
+    public static void main(String[] args) {
+        //TODO Auto-generated method stub
+        //validate if Add Place API is wirking as expected
+        //Add place-> Update place with New Adress ->Get Place to validate If New Adress is present in response
+
+
+        //given - all input details
+        //when - Submit the API -resource,http method
+        //then - validate the response
+
+
+        RestAssured.baseURI = "https://rahulshettyacademy.com";
+
+        String response = given().log().all()
+                .queryParam("key", "qaclick123")
+                .header("Content-Type", "application/json")
+                .body(payLoad.AddPlace())
+                .when().post("maps/api/place/add/json")
+                .then().assertThat().statusCode(200)
+                .body("scope", equalTo("APP"))
+                .header("server", "Apache/2.4.18 (Ubuntu)")
+                .extract().response().asString();
+
+        System.out.println("response = " + response);
+
+
+        JsonPath js = new JsonPath(response);//for parsing Json
+        String placeId = js.getString("place_id");
+        System.out.println(placeId);
+
+        //Update Place
+        String newAddress = "Besiktas";
+
+        given().log().all()
+                .queryParam("key", "qaclick123")
+                .header("Content-Type", "application/json")
+                .body("{\n" +
+                        "\"place_id\":\"" + placeId + "\",\n" +
+                        "\"address\":\"" + newAddress + "\",\n" +
+                        "\"key\":\"qaclick123\"\n" +
+                        "}\n")
+                .when().put("maps/api/place/update/json")
+                .then().assertThat().log().all().statusCode(200)
+                .body("msg", equalTo("Address successfully updated"));
+
+        //Get Place
+
+        String getPlaceResponse = given().log().all()
+                .queryParam("key", "qaclick123")
+                .queryParam("place_id", placeId)
+                .when().get("maps/api/place/get/json")
+                .then().assertThat().log().all().statusCode(200)
+                .extract().response().asString();
+
+//
+//        JsonPath js1= ReusableMethods.rawToJson(getPlaceResponse);
+//        String actualAddress = js1.getString("address");
+//        System.out.println("actualAdress = " + actualAddress);
+//        Assert.assertEquals(actualAddress,newAddress);
+//        //Cucumber Junit,Testng
+
+
     }
-    /*
-    When user send GET request to /api/spartans end point
-     Then status code must be 200
-    And body should contains Allen
-     */
-    @Test
-    public void viewSpartanTest2() {
-        Response response =   RestAssured.get(spartanBaseURL+"/api/spartans");
-
-        //verify status code 200
-       Assert.assertEquals(response.statusCode(),200);
-
-        //verify body contains Allen
-        Assert.assertTrue(response.body().asString().contains("Wyatt"));
-
-    }
-
-
-    /*
-    Given accept type is Json
-    When user send a get request to spartanAllURL
-    Thenresponse status code is 200
-    And response body should be json format
-     */
-    @Test
-    public void viewSpartanTest3(){
-  Response response=      RestAssured.given().accept(ContentType.JSON)
-                .when().get(spartanBaseURL+"/api/spartans");
-        //verify status code
-        Assert.assertEquals(response.statusCode(),200);
-
-        //verify response body json
-        Assert.assertEquals(response.contentType(),"application/json;charset=UTF-8");
-    }
-
-
-
-
 
 
 }
